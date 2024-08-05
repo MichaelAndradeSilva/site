@@ -1,13 +1,26 @@
-body,html {
-    height: 100%;
-    margin: 0;
-    
+@font-face {
+    font-family: minecraft;
+    src: url(Minecraft.ttf);
 }
 
-.bg{
+body,
+html {
+    height: 100%;
+    margin: 0;
+    color: rgb(206, 0, 62);
+    font-family: minecraft;
+
+}
+
+.bg {
     background-image: url("minecraftbackground.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+header  {
+    padding: 20px;
+    border-bottom:solid 2px rgb(62, 160, 62)
 }
